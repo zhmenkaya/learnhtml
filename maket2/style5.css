@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 477px;
+}
+.header{
+    background-color: #FFC700;
+    color: black;
+    margin: 20px 0 0 20px;
+}
+.main{
+    background-color: #00FF0A;
+    font-size: 18px;
+    height: 368px;
+    text-align: center;
+    margin: 20px 0;
+    margin-left: 20px;
+
+}
+.img1{
+    height: 226px;
+    width: 100%;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+.img2{
+    width: 228px;
+    height: 239px;
+}
+.box3{
+    width: 437px;
+    height: 239px;
+    background-color: #634830;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}

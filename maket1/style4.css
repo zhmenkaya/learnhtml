@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+.container{
+    background-color: white;
+    display: flex;
+    width: 1366px ;
+    height: 768px;
+    border: 10px solid white;
+    flex-direction: column;
+    
+}
+.header{
+    border: 10px solid white;
+    width: 1326px;
+    display: flex;
+    flex-direction: row;
+}
+.main{
+    background-color: yellowgreen;
+    border: 10px solid white;
+    display: flex;
+    flex-direction: row;
+    width: 1326px;
+    text-align: center;
+}
+.footer{
+    border: 10px solid white;
+}
+.img1{
+    height: 368px;
+    width: 521px;
+   
+}
+.redbox{
+    width: 492px;
+    height: 81px;
+    background-color: #FF0000;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    left: 50 px;
+    size: 22px;
+    line-height: 35.2px;
+
+}
+.yellowbox{
+    width: 814px;
+    height: 81px;
+    background: #FFC700;
+    float:right;
+    right: 1000px;
+    text-align: center;
+}
