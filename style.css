@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    border:1px solid red;
+    font-size: 24px;
+}
+
+.wrapper{
+    width: 600px;
+    height: 600px;
+    border:2px solid
+}
+.blue{
+    background-color: aqua;
+}
+.yellow{
+    background-color:yellow;
+}
+.green{
+    background-color: rgb(26, 163, 13);
+}
