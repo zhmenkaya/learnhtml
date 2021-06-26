@@ -17,14 +17,23 @@
      margin: 15px;
  }
  .image{
-     float: right;
+     float: left;
  }
 .blue{
     background-color: aqua;
 }
 .yellow{
     background-color:yellow;
+    
 }
 .green{
     background-color: rgb(26, 163, 13);
+    clear: left;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    margin: 20px;
 }
