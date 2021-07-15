@@ -1,0 +1,59 @@
+.wrapper{
+    height: 100vh;
+    padding: 100px;
+    background-color: aquamarine;
+}
+
+.progress{
+    width: 1000px;
+    height: 100px;
+    border: 1px solid rgb(3, 59, 41);
+}
+
+
+.progress__line{
+    background-color:rgb(3, 59, 41);
+    height: 100%;
+    width: 0%;
+    animation-name: progress;
+    animation-duration: 5s;
+}
+
+@keyframes progress{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+.square-to-right{
+    width: 200px;
+    height: 200px;
+    border: 5px solid rgb(14, 158, 224);
+    animation: square-to-right 3s linear 1s 3 normal forwards;
+    -webkit-animation: square-to-right 3s linear 1s 3 normal forwards;
+}
+
+.square-to-right__1{
+
+}
+
+@keyframes square-to-right{
+    0%{
+        transform: translateX(0px);
+        -webkit-transform: translateX(0px);
+        -moz-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+        -o-transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(800px);
+        -webkit-transform: translateX(800px);
+        -moz-transform: translateX(800px);
+        -ms-transform: translateX(800px);
+        -o-transform: translateX(800px);
+    }
+}
+
