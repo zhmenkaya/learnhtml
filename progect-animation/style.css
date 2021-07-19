@@ -347,8 +347,8 @@
     height: 100%;
     width: 20%;
     background-color:rgb(14, 158, 224);
-    animation:progresses9 paused;
-    -webkit-animation:progresses9 paused;
+    animation:progresses9 5s infinite paused;
+    -webkit-animation:progresses9 5s infinite paused;
 }
 
 .progresses9:hover .progresses9__blue-line{
