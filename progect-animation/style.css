@@ -335,3 +335,33 @@
         -o-transform: translate(350px, 350px);
 }
 }
+
+
+.progresses9{
+    width: 1000px;
+    height: 100px;
+    margin: 50px;
+}
+
+.progresses9__blue-line{
+    height: 100%;
+    width: 20%;
+    background-color:rgb(14, 158, 224);
+    animation:progresses9 paused;
+    -webkit-animation:progresses9 paused;
+}
+
+.progresses9:hover .progresses9__blue-line{
+    animation:progresses9 5s backwards infinite  alternate;
+    -webkit-animation:progresses9 5s backwards infinite  alternate;
+}
+
+@keyframes progresses9{
+    0%{
+        width: 20%;
+    }
+    100%{
+        width: 100%;
+    }
+
+}
