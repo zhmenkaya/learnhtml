@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "Britannic-bold";
+    src: url("./fonts/britannic-bold.ttf") format("truetype");
+}
+
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+img {
+    width: 15px;
+}
+
+body {
+    background-color: #d4e5f6;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Britannic-bold", sans-serif;
+    font-size: 16px;
+}
+
+.calc {
+    width: 676px;
+    height: 600px;
+    border-radius: 28px;
+    color: white;
+    box-shadow: 4px 4px 40px 5px rgba(17, 22, 44, 0.20);
+    overflow: hidden;
+    background-color: #738396;
+    display:grid;
+    grid-template-rows: 50px 145px repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr) repeat(3, 80px);
+}
+
+.calc__header {
+    background-color: #374352;
+    grid-area: 1/1/2/span 7;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.calc__control {
+    background-color: #343a41;
+    width: 60px;
+}
+.calc__control img {
+    width: 10px;
+}
+
+.calc__display {
+    background-color: #515c69;
+    font-size: 40px;
+    grid-area: 2/1/3/span 7;
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    padding:0 30px 30px ;
+}
+
+.calc__buttons {
+    background-color: #738396;
+}
+
+.calc__btn-number {
+    background-color: #5b6a7c;
+}
+
+.calc__btn-operation {
+    background-color: #374352;
+
+}
+
+.calc__btn-operation.minus img {
+    width: 10px;
+}
+.calc__btn-operation.plus img {
+    width: 10px;
+}
+
+.calc__btn-operation.multiply img {
+    width: 10px;
+}
+
+.calc__btn-operation-add {
+    background-color: #343a41;
+}
+
+.calc__btn-operation-add.radical img {
+    width: 24px;
+}
+.calc__btn-equal-sign {
+    background: linear-gradient(-30deg, #fe2c75, #fca82c);
+}
+
+.calc__btn-operation--red-text {
+    color: #fe3a6d;
+}
